@@ -1,0 +1,10 @@
+{
+    "setup": {
+      "prefix": "esdi",
+      "body": [
+        "/* eslint-disable */",
+        "// @ts-nocheck"
+      ],
+      "description": "Avoid typecheck and eslint"
+    }
+  }

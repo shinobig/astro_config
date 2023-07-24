@@ -21,7 +21,8 @@ return {
     ["<S-DOWN>"] = {"10j", desc = "Move down fast"},
     ["<S-UP>"] = {"10k", desc = "Move up fast"},
 ['<S-Tab>']= {':bprev<CR>',desc="move in tabs"},
-['<Tab>']= {':bnext<CR>',desc="move in tabs"}
+['<Tab>']= {':bnext<CR>',desc="move in tabs"},
+
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
