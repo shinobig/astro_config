@@ -1,6 +1,5 @@
 return {
   { 'NeogitOrg/neogit', dependencies = 'nvim-lua/plenary.nvim', lazy=false },
-
   {
     'akinsho/git-conflict.nvim',
  version = "*", config = true, lazy=false},
@@ -45,7 +44,11 @@ require('nx.read-configs').read_package_json()
       })
   end,
   lazy=false
-}
+},
+{
+  "sindrets/diffview.nvim",
+  lazy=false
+},
   -- {
 
   --   "Pocco81/auto-save.nvim"
