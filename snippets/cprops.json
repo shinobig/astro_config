@@ -1,0 +1,11 @@
+{
+    "setup": {
+      "prefix": "cprops",
+      "body": [
+        "interface ${TM_FILENAME_BASE}Props {",
+         "\t$0",
+          "}"
+      ],
+      "description": "create React Component Props"
+    }
+  }

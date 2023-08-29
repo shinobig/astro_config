@@ -1,10 +1,11 @@
+
 {
     "setup": {
       "prefix": "crh",
       "body": [
         "export const ${TM_FILENAME_BASE} = () => {",
          "\t$0",
-        "}"
+          "}"
       ],
       "description": "create React Hook"
     }

@@ -9,9 +9,13 @@
           "language": ["typescript", "typescriptreact"],
           "path": "./esdi.json"
         },
-{
+        {
           "language": ["typescript", "typescriptreact"],
           "path": "./crh.json"
+        },
+{
+          "language": ["typescript", "typescriptreact"],
+          "path": "./cprops.json"
         }
       ]
     }

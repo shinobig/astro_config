@@ -15,11 +15,13 @@ return {
       end,
       desc = "Pick to close",
     },
+    ["<leader>gdt"] = {"|gd", desc="Open definition in a new tab"},
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     ["<S-DOWN>"] = {"10j", desc = "Move down fast"},
     ["<S-UP>"] = {"10k", desc = "Move up fast"},
+    ["<leader>sa"] = {"ggVG", desc = "Select All"},
 ['<S-Tab>']= {':bprev<CR>',desc="move in tabs"},
 ['<Tab>']= {':bnext<CR>',desc="move in tabs"},
 
