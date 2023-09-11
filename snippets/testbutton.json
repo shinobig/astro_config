@@ -1,0 +1,11 @@
+{
+    "setup": {
+      "prefix": "testbutton",
+      "body": [
+        "<button type='button'  onClick={$0}>",
+         "\tTEST VALUES",
+          "</button>"
+      ],
+      "description": "Create test button"
+    }
+  }

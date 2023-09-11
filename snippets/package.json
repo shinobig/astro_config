@@ -16,6 +16,9 @@
 {
           "language": ["typescript", "typescriptreact"],
           "path": "./cprops.json"
+        }, {
+          "language": ["typescript", "typescriptreact"],
+          "path": "./testbutton.json"
         }
       ]
     }
