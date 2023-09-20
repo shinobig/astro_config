@@ -19,6 +19,9 @@
         }, {
           "language": ["typescript", "typescriptreact"],
           "path": "./testbutton.json"
+        }, {
+          "language": ["typescript", "typescriptreact"],
+          "path": "./fwp.json"
         }
       ]
     }

@@ -1,0 +1,15 @@
+{
+    "setup": {
+      "prefix": "fwp",
+      "body": [
+        "interface ${TM_FILENAME_BASE}Props {",
+         "\t$0",
+          "}",
+          "",
+          "export const ${TM_FILENAME_BASE} = ({}: ${TM_FILENAME_BASE}Props) => {",
+          "",
+        "}"
+      ],
+      "description": "Create function with props, with the same name as file"
+    }
+  }
