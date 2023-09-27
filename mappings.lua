@@ -48,6 +48,14 @@ return {
         ['<Tab>'] = {
             ':bnext<CR>',
             desc = "move in tabs"
+        },
+        ['<leader>ye'] = {
+            "y$",
+            desc = 'copy to the end of line'
+        },
+        ['<leader>ra'] = {
+            ":%s/",
+            desc = 'copy to the end of line'
         }
 
         -- quick save

@@ -30,7 +30,6 @@ return {{
             -- see nx.loading-and-reloading for more details
             read_init = true,
             require('nx.actions'),
-            require('nx.read-configs').read_nx(),
             require('nx.read-configs').read_workspace(),
             require('nx.read-configs').read_package_json()
         }
@@ -59,7 +58,11 @@ return {{
 }, {
     "rafamadriz/friendly-snippets",
     lazy = false
-} --  {
+},
+{ "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+
+
+--  {
 
 -- {
 --   "Pocco81/auto-save.nvim"
