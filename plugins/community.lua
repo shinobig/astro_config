@@ -13,4 +13,8 @@ return { -- Add the community repository of plugin specifications
     import = "astrocommunity.bars-and-lines.feline-nvim"
 }, {
     import = "astrocommunity.completion.copilot-lua-cmp"
-}}
+},
+{
+    import = "astrocommunity.pack.ruby"
+}
+}
